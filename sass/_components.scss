@@ -55,10 +55,8 @@
         }
     }
     &__icon{
-        height: 2rem;
-        width: 2rem;
-        // CHANGING THE COLOR OF AN SVG FILE
-        fill: var(--color-grey-dark-3);
+        font-size: 2rem;
+        color: var(--color-grey-dark-3);
     }
 }
 //_____________USER NAVIGATION_____________
@@ -81,10 +79,8 @@
         position: relative;
     }
     &__icon{
-        height: 2.25rem;
-        width: 2.25rem;
-        fill: var(--color-grey-dark-2);
-
+        font-size: 2.25rem;
+        color: var(--color-grey-dark-2);
     }
     &__notification{
         font-size: .8rem;
@@ -178,16 +174,14 @@
         }
     }
     &__icon{
-        width: 1.75rem;
-        height: 1.75rem;
+        font-size: 1.75rem;
         margin-right: 2rem;
-        fill: currentColor;
+        color: currentColor;
 
         @media only screen and (max-width: $bp-small) {
             margin-right: 0;
             margin-bottom: .7rem;
-            width: 1.5rem;
-            height: 1.5rem;
+            font-size: 1.5rem;
         }
     }
 }
@@ -235,9 +229,8 @@
     }
     &__icon-star,
     &__icon-location{
-        width: 1.75rem;
-        height: 1.75rem;
-        fill: var(--color-primary);
+        font-size: 1.75rem;
+        color: var(--color-primary);
     }
     &__location{
         font-size: 1.2rem;
